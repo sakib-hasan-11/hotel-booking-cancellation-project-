@@ -14,14 +14,12 @@ The dataset H1.csv contains booking information such as:
 2. Preprocessing
 
 • Dropped irrelevant columns (e.g., ReservationStatus)
-
 • Handled missing values
-
 • Encoded categorical features
-
 • Scaled/normalized data (if applicable)
-
 • Models Implement
+
+---
 
 3. classification models were trained and evaluated:
 
@@ -37,17 +35,18 @@ The dataset H1.csv contains booking information such as:
 • Ensemble method, reduces overfitting
 • Accuracy: ~83% (train & test)
 
-Libraries Used
-Pandas, NumPy → Data manipulation
-Matplotlib, Seaborn → Visualization
-Scikit-learn → ML models and preprocessing
+---
 
-📊 Summary
+4. Libraries Used
+   • Pandas, NumPy → Data manipulation
+   • Matplotlib, Seaborn → Visualization
+   • Scikit-learn → ML models and preprocessing
+
+---
+
+5. Summary
 
 Random Forest Classifier performed best, achieving 83% accuracy.
-
 Logistic Regression provided a simple and interpretable baseline.
-
 Decision Tree achieved competitive results but may overfit if not tuned.
-
 The project shows that ensemble models like Random Forests are more reliable in predicting hotel booking cancellations compared to simpler models.
